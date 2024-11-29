@@ -54,9 +54,7 @@ if rod == "yes":
     ).lower()
     if rod_buy == "yes":
         quantity = int(input("Shopkeeper - How many fishing rods do you want to buy? "))
-        rod_type = input(
-            "Shopkeeper - Which type of fishing rod do you want (metal, bronze, plastic, aluminum)? "
-        )
+        rod_type = input("Shopkeeper - Which type of fishing rod do you want (metal, bronze, plastic, aluminum)? ")
 
         color_rod = input("Do you want a colored rod? (yes/no): ").lower()
         if color_rod == "yes":
